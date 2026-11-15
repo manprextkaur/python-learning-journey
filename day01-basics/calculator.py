@@ -1,0 +1,7 @@
+num1=int(input("enter your first number"))
+num2=int(input("enter your second number"))
+print("Addition =",num1+num2)
+print("subtraction =",num1-num2)
+print("multiply =",num1*num2)
+print("division =",num1/num2)
+print("modolus =",num1%num2)
