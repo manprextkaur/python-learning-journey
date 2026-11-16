@@ -7,7 +7,7 @@ print("total marks of 3 subject:",total_marks)
 print("percentage is :",percentage,"%")
 if percentage>=90:
       print("grade A")
-elif percentage>=80:
+elif percentage>=75:
       print("grade B")
 elif percentage>=60:   
       print("grade C")
