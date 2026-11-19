@@ -3,7 +3,9 @@ my_card={"name":"Aman",
          "course":"BCA",
          "city":"Jalandhar",
          "marks":450}
-for i in my_card:
-    print(i,":",my_card[i])
+for key in my_card:
+    print(key,":",my_card[key])
 my_card["marks"]=470
-print("marks is updated:",my_card["marks"])
+print("-----------updated card----------")
+for key in my_card:
+    print(key,":",my_card[key])
