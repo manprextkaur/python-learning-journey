@@ -9,8 +9,9 @@ for i in range(4):
     print("name is:",student_name)
     total=sum(marks)
     print("total marks is :",total)
-    topper_name=student_name
-    topper_total=total
-    if topper_total>=450:
+  
+    if total> topper_total:
+        topper_name=student_name
+        topper_total=total
         print("topper is",topper_name,total)
 print("topper is:",topper_name,topper_total)
