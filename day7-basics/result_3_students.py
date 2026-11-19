@@ -4,10 +4,12 @@ for i in range(3):
     for j in range(5):
         student_marks=int(input("enter your marks for each subject:"))
         marks.append(student_marks)
+    print("the student name is :",student_name)
     total=sum(marks)
     print("total marks is:",total)
     percentage=total/500*100
     print("percentage is :",percentage)
+    
     if percentage>=90:
         print("grade A")
         print("Pass")
