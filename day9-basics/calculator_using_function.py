@@ -23,18 +23,26 @@ if choice==1:
 
 elif choice ==2:
     print(" subtract operation is perform:")
+    result=subtract(a,b) 
+    print("result is:",result) 
 
 
 elif choice ==3:
     print(" multiplication operation is perform:")
+    result=multiplication(a,b) 
+    print("result is:",result) 
                                
                             
 elif choice ==4:
     print(" division operation is perform:")
+    result=division(a,b) 
+    print("result is:",result) 
                                
                             
 elif choice ==5:
     print(" modulus operation is perform:")
+    result=modulus(a,b) 
+    print("result is:",result) 
                                
 else:
     print("choose correct option")
