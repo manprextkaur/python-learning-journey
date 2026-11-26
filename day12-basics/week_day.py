@@ -1,4 +1,4 @@
-days=("Monday","Tuesday","Wednesday","Friday","Saturday","Sunday")
+days=("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")
 print("How many days :",len(days))
 print("First day :",days[0])
 print("First day :",days[len(days)-1])
