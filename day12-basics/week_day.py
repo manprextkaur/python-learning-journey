@@ -1,0 +1,7 @@
+days=("Monday","Tuesday","Wednesday","Friday","Saturday","Sunday")
+print("How many days :",len(days))
+print("First day :",days[0])
+print("First day :",days[len(days)-1])
+print("Sunday in week:","Sunday"in days)
+print("Funday in week:","Funday"in days)
+print("middle days", days[2:5])
